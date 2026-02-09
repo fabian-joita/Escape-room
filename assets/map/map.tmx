@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="30">
+ <properties>
+  <property name="music" value="audio/fields.ogg"/>
+ </properties>
+ <tileset firstgid="1" source="map.tsx"/>
+ <tileset firstgid="101" name="entities" tilewidth="48" tileheight="48" tilecount="3" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="1">
+   <image source="../../assets_raw/player/idle_side_00.png"/>
+  </tile>
+  <tile id="2">
+   <image source="../graphics/chest.png" width="16" height="16"/>
+  </tile>
+  <tile id="3">
+   <image source="../graphics/slime.png" width="32" height="32"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="ground" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztk8EKwyAMQNXOnuutlh13KbRHu8/o///NVkggBCexS3uy8AgRyTOa7saYvSGmI1ztehAi4CDH2Cs7LXEhIYOWl/YYwOchP+LCvE7BjT0GFl9sD/VGgdfC+UpElnsl71jJUHDe7d3A9/6yCt8P6z1PeGfw4By4TH2f6f/ffvn84Yxj9LCO3yS4i1Gwp/Rv55hI7Vp+eY/7TiQmtkbfXctbS/M2r7b3A6XwemQ=
+  </data>
+ </layer>
+ <layer id="3" name="bgd_1" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztk80KwjAQhNfqevHSixcvnhXpoU8j9P3fQwMJjNNN+rfpyQ+GlLDwMWki8mcJJ0hNDuR6x32l/Zuz9zJzzstrneeLgqiD+7pyxquzUtCpxqz3P2asrnt4011TWLl/DR7Rk3pbTnxnZ2c/enN3IRDO//5NU4hk9tuCd4rkRZrM95Hmcl5+01ZEfvuWvIzlXcLcvjW9Q1x78vYyxrsvwn3R7+EdJqfGbPWGN/9ckW6j9wPargos
+  </data>
+ </layer>
+ <layer id="4" name="fgd_1" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFxAJGKO1NR7uGM0D3Y8yAuGIUoIM4GqvHB3SBWI+K5uGzBx+gRx7HBZyB2IVGZlM7jxETTppUtnO4AceBdsAooBkAAKJ3A9I=
+  </data>
+ </layer>
+ <objectgroup id="5" name="entities" offsetx="0" offsety="-2.93758">
+  <object id="1" name="PLAYER" type="PLAYER" gid="102" x="31.7499" y="306.75" width="48" height="48"/>
+  <object id="13" name="CHEST" type="CHEST" gid="103" x="16" y="224" width="16" height="16"/>
+  <object id="15" name="CHEST" type="CHEST" gid="103" x="80" y="224" width="16" height="16"/>
+  <object id="20" name="BLOB" type="BLOB" gid="104" x="56" y="180.75" width="32" height="32">
+   <properties>
+    <property name="color" type="color" value="#ffaaaaff"/>
+   </properties>
+  </object>
+  <object id="22" name="BLOB2" type="BLOB" gid="104" x="262.883" y="71.1857" width="32" height="32">
+   <properties>
+    <property name="color" type="color" value="#ffaaaaff"/>
+   </properties>
+  </object>
+  <object id="23" name="BLOB3" type="BLOB" gid="104" x="343.629" y="118.055" width="32" height="32">
+   <properties>
+    <property name="color" type="color" value="#ffaaaaff"/>
+   </properties>
+  </object>
+  <object id="24" name="BLOB4" type="BLOB" gid="104" x="279.824" y="163.814" width="32" height="32">
+   <properties>
+    <property name="color" type="color" value="#ffaaaaff"/>
+   </properties>
+  </object>
+  <object id="26" name="BLOB5" type="BLOB" gid="104" x="407.434" y="198.617" width="32" height="32">
+   <properties>
+    <property name="color" type="color" value="#ffaaaaff"/>
+   </properties>
+  </object>
+  <object id="25" name="BLOB6" type="BLOB" gid="104" x="183.43" y="260.62" width="32" height="32">
+   <properties>
+    <property name="color" type="color" value="#ffaaaaff"/>
+   </properties>
+  </object>
+  <object id="29" name="BLOB7" type="BLOB" gid="104" x="434.43" y="200.62" width="32" height="32">
+   <properties>
+    <property name="color" type="color" value="#ffaaaaff"/>
+   </properties>
+  </object>
+  <object id="27" name="BLOB8" type="BLOB" gid="104" x="88.43" y="294.62" width="32" height="32">
+   <properties>
+    <property name="color" type="color" value="#ff00ff2b"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="portals"/>
+</map>
